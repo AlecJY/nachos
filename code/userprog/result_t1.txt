@@ -1,0 +1,1343 @@
+Entering main
+Total threads number is 1
+Forking thread: ../test/test1 f(a): 134580371 0x97c8238
+Putting thread on ready list: ../test/test1
+Thread ../test/test1 is executing.
+Finishing thread: main
+Sleeping thread: main
+Switching from: main to: ../test/test1
+Beginning thread: ../test/test1
+Deleting thread: main
+Time: 31, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	0	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1392	30:	0	RA(31):	8
+	Hi:	0	Lo:	0	PC:	4	NextPC:	224	PrevPC:	0	Load:	0	LoadV:	0
+31>Time: 32, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	0	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1392	30:	0	RA(31):	8
+	Hi:	0	Lo:	0	PC:	224	NextPC:	228	PrevPC:	4	Load:	0	LoadV:	0
+32>Time: 33, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	0	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	0	RA(31):	8
+	Hi:	0	Lo:	0	PC:	228	NextPC:	232	PrevPC:	224	Load:	0	LoadV:	0
+33>Time: 34, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	0	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	0	RA(31):	8
+	Hi:	0	Lo:	0	PC:	232	NextPC:	236	PrevPC:	228	Load:	0	LoadV:	0
+34>Time: 35, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	0	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	0	RA(31):	8
+	Hi:	0	Lo:	0	PC:	236	NextPC:	240	PrevPC:	232	Load:	0	LoadV:	0
+35>Time: 36, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	0	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	0	RA(31):	244
+	Hi:	0	Lo:	0	PC:	240	NextPC:	208	PrevPC:	236	Load:	0	LoadV:	0
+36>Time: 37, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	0	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	208	NextPC:	212	PrevPC:	240	Load:	0	LoadV:	0
+37>Time: 38, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	0	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	212	NextPC:	244	PrevPC:	208	Load:	0	LoadV:	0
+38>Time: 39, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	0	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	244	NextPC:	248	PrevPC:	212	Load:	0	LoadV:	0
+39>Time: 40, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	248	NextPC:	252	PrevPC:	244	Load:	0	LoadV:	0
+40>Time: 41, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	252	NextPC:	256	PrevPC:	248	Load:	0	LoadV:	0
+41>Time: 42, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	256	NextPC:	260	PrevPC:	252	Load:	2	LoadV:	9
+42>Time: 43, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	260	NextPC:	264	PrevPC:	256	Load:	0	LoadV:	0
+43>Time: 44, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	264	NextPC:	268	PrevPC:	260	Load:	0	LoadV:	0
+44>Time: 45, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	268	NextPC:	280	PrevPC:	264	Load:	0	LoadV:	0
+45>Time: 46, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	280	NextPC:	284	PrevPC:	268	Load:	0	LoadV:	0
+46>Time: 47, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	244
+	Hi:	0	Lo:	0	PC:	284	NextPC:	288	PrevPC:	280	Load:	4	LoadV:	9
+47>Time: 48, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	288	NextPC:	192	PrevPC:	284	Load:	0	LoadV:	0
+48>Time: 49, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	192	NextPC:	196	PrevPC:	288	Load:	0	LoadV:	0
+49>Time: 50, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	196	NextPC:	200	PrevPC:	192	Load:	0	LoadV:	0
+50>Print integer:9
+Time: 51, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	200	NextPC:	204	PrevPC:	196	Load:	0	LoadV:	0
+51>Time: 52, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	204	NextPC:	292	PrevPC:	200	Load:	0	LoadV:	0
+52>Time: 53, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	292	NextPC:	296	PrevPC:	204	Load:	0	LoadV:	0
+53>Time: 54, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	296	NextPC:	300	PrevPC:	292	Load:	2	LoadV:	9
+54>Time: 55, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	300	NextPC:	304	PrevPC:	296	Load:	0	LoadV:	0
+55>Time: 56, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	8
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	304	NextPC:	308	PrevPC:	300	Load:	0	LoadV:	0
+56>Time: 57, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	8
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	308	NextPC:	252	PrevPC:	304	Load:	0	LoadV:	0
+57>Time: 58, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	8
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	252	NextPC:	256	PrevPC:	308	Load:	0	LoadV:	0
+58>Time: 59, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	9	3:	8
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	256	NextPC:	260	PrevPC:	252	Load:	2	LoadV:	8
+59>Time: 60, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	8
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	260	NextPC:	264	PrevPC:	256	Load:	0	LoadV:	0
+60>Time: 61, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	264	NextPC:	268	PrevPC:	260	Load:	0	LoadV:	0
+61>Time: 62, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	268	NextPC:	280	PrevPC:	264	Load:	0	LoadV:	0
+62>Time: 63, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	280	NextPC:	284	PrevPC:	268	Load:	0	LoadV:	0
+63>Time: 64, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	0
+	4:	9	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	284	NextPC:	288	PrevPC:	280	Load:	4	LoadV:	8
+64>Time: 65, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	288	NextPC:	192	PrevPC:	284	Load:	0	LoadV:	0
+65>Time: 66, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	192	NextPC:	196	PrevPC:	288	Load:	0	LoadV:	0
+66>Time: 67, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	196	NextPC:	200	PrevPC:	192	Load:	0	LoadV:	0
+67>Print integer:8
+Time: 68, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	200	NextPC:	204	PrevPC:	196	Load:	0	LoadV:	0
+68>Time: 69, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	204	NextPC:	292	PrevPC:	200	Load:	0	LoadV:	0
+69>Time: 70, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	292	NextPC:	296	PrevPC:	204	Load:	0	LoadV:	0
+70>Time: 71, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	296	NextPC:	300	PrevPC:	292	Load:	2	LoadV:	8
+71>Time: 72, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	300	NextPC:	304	PrevPC:	296	Load:	0	LoadV:	0
+72>Time: 73, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	7
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	304	NextPC:	308	PrevPC:	300	Load:	0	LoadV:	0
+73>Time: 74, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	7
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	308	NextPC:	252	PrevPC:	304	Load:	0	LoadV:	0
+74>Time: 75, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	7
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	252	NextPC:	256	PrevPC:	308	Load:	0	LoadV:	0
+75>Time: 76, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	8	3:	7
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	256	NextPC:	260	PrevPC:	252	Load:	2	LoadV:	7
+76>Time: 77, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	7
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	260	NextPC:	264	PrevPC:	256	Load:	0	LoadV:	0
+77>Time: 78, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	264	NextPC:	268	PrevPC:	260	Load:	0	LoadV:	0
+78>Time: 79, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	268	NextPC:	280	PrevPC:	264	Load:	0	LoadV:	0
+79>Time: 80, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	280	NextPC:	284	PrevPC:	268	Load:	0	LoadV:	0
+80>Time: 81, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	0
+	4:	8	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	284	NextPC:	288	PrevPC:	280	Load:	4	LoadV:	7
+81>Time: 82, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	288	NextPC:	192	PrevPC:	284	Load:	0	LoadV:	0
+82>Time: 83, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	192	NextPC:	196	PrevPC:	288	Load:	0	LoadV:	0
+83>Time: 84, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	196	NextPC:	200	PrevPC:	192	Load:	0	LoadV:	0
+84>Print integer:7
+Time: 85, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	200	NextPC:	204	PrevPC:	196	Load:	0	LoadV:	0
+85>Time: 86, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	204	NextPC:	292	PrevPC:	200	Load:	0	LoadV:	0
+86>Time: 87, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	292	NextPC:	296	PrevPC:	204	Load:	0	LoadV:	0
+87>Time: 88, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	296	NextPC:	300	PrevPC:	292	Load:	2	LoadV:	7
+88>Time: 89, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	300	NextPC:	304	PrevPC:	296	Load:	0	LoadV:	0
+89>Time: 90, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	6
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	304	NextPC:	308	PrevPC:	300	Load:	0	LoadV:	0
+90>Time: 91, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	6
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	308	NextPC:	252	PrevPC:	304	Load:	0	LoadV:	0
+91>Time: 92, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	6
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	252	NextPC:	256	PrevPC:	308	Load:	0	LoadV:	0
+92>Time: 93, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	7	3:	6
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	256	NextPC:	260	PrevPC:	252	Load:	2	LoadV:	6
+93>Time: 94, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	6
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	260	NextPC:	264	PrevPC:	256	Load:	0	LoadV:	0
+94>Time: 95, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	264	NextPC:	268	PrevPC:	260	Load:	0	LoadV:	0
+95>Time: 96, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	268	NextPC:	280	PrevPC:	264	Load:	0	LoadV:	0
+96>Time: 97, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	280	NextPC:	284	PrevPC:	268	Load:	0	LoadV:	0
+97>Time: 98, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	0
+	4:	7	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	284	NextPC:	288	PrevPC:	280	Load:	4	LoadV:	6
+98>Time: 99, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 100
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	0
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	288	NextPC:	192	PrevPC:	284	Load:	0	LoadV:	0
+99>Yielding thread: ../test/test1
+Time: 110, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	0
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	192	NextPC:	196	PrevPC:	288	Load:	0	LoadV:	0
+110>Time: 111, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	196	NextPC:	200	PrevPC:	192	Load:	0	LoadV:	0
+111>Print integer:6
+Time: 112, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	200	NextPC:	204	PrevPC:	196	Load:	0	LoadV:	0
+112>Time: 113, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	204	NextPC:	292	PrevPC:	200	Load:	0	LoadV:	0
+113>Time: 114, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	292	NextPC:	296	PrevPC:	204	Load:	0	LoadV:	0
+114>Time: 115, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	11	3:	0
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	296	NextPC:	300	PrevPC:	292	Load:	2	LoadV:	6
+115>Time: 116, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	0
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	300	NextPC:	304	PrevPC:	296	Load:	0	LoadV:	0
+116>Time: 117, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	5
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	304	NextPC:	308	PrevPC:	300	Load:	0	LoadV:	0
+117>Time: 118, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	5
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	308	NextPC:	252	PrevPC:	304	Load:	0	LoadV:	0
+118>Time: 119, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	5
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	252	NextPC:	256	PrevPC:	308	Load:	0	LoadV:	0
+119>Time: 120, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	6	3:	5
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	256	NextPC:	260	PrevPC:	252	Load:	2	LoadV:	5
+120>Time: 121, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	5
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	260	NextPC:	264	PrevPC:	256	Load:	0	LoadV:	0
+121>Time: 122, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	264	NextPC:	268	PrevPC:	260	Load:	0	LoadV:	0
+122>Time: 123, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	268	NextPC:	272	PrevPC:	264	Load:	0	LoadV:	0
+123>Time: 124, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	272	NextPC:	276	PrevPC:	268	Load:	0	LoadV:	0
+124>Time: 125, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	276	NextPC:	312	PrevPC:	272	Load:	0	LoadV:	0
+125>Time: 126, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	312	NextPC:	316	PrevPC:	276	Load:	0	LoadV:	0
+126>Time: 127, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	316	NextPC:	320	PrevPC:	312	Load:	0	LoadV:	0
+127>Time: 128, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	292
+	Hi:	0	Lo:	0	PC:	320	NextPC:	324	PrevPC:	316	Load:	31	LoadV:	8
+128>Time: 129, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	1360	RA(31):	8
+	Hi:	0	Lo:	0	PC:	324	NextPC:	328	PrevPC:	320	Load:	30	LoadV:	0
+129>Time: 130, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1360	30:	0	RA(31):	8
+	Hi:	0	Lo:	0	PC:	328	NextPC:	8	PrevPC:	324	Load:	0	LoadV:	0
+130>Time: 131, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1392	30:	0	RA(31):	8
+	Hi:	0	Lo:	0	PC:	8	NextPC:	12	PrevPC:	328	Load:	0	LoadV:	0
+131>Time: 132, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	6	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1392	30:	0	RA(31):	16
+	Hi:	0	Lo:	0	PC:	12	NextPC:	32	PrevPC:	8	Load:	0	LoadV:	0
+132>Time: 133, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	5	3:	1
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1392	30:	0	RA(31):	16
+	Hi:	0	Lo:	0	PC:	32	NextPC:	36	PrevPC:	12	Load:	0	LoadV:	0
+133>Time: 134, interrupts on
+Pending interrupts:
+Interrupt handler timer, scheduled at 200
+End of pending interrupts
+Machine registers:
+	0:	0	1:	0	2:	1	3:	1
+	4:	0	5:	0	6:	0	7:	0
+	8:	0	9:	0	10:	0	11:	0
+	12:	0	13:	0	14:	0	15:	0
+	16:	0	17:	0	18:	0	19:	0
+	20:	0	21:	0	22:	0	23:	0
+	24:	0	25:	0	26:	0	27:	0
+	28:	0	SP(29):	1392	30:	0	RA(31):	16
+	Hi:	0	Lo:	0	PC:	36	NextPC:	40	PrevPC:	32	Load:	0	LoadV:	0
+134>return value:0
+Finishing thread: ../test/test1
+Sleeping thread: ../test/test1
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 200, idle 66, system 40, user 94
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0

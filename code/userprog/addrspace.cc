@@ -51,6 +51,8 @@ SwapHeader (NoffHeader *noffH)
 //	only uniprogramming, and we have a single unsegmented page table
 //----------------------------------------------------------------------
 
+bool AddrSpace::pageIsUsed[NumPhysPages] = {0};
+
 AddrSpace::AddrSpace()
 {
     pageTable = new TranslationEntry[NumPhysPages];
@@ -64,7 +66,7 @@ AddrSpace::AddrSpace()
 	pageTable[i].dirty = FALSE;
 	pageTable[i].readOnly = FALSE;  
     }
-    
+
     // zero out the entire address space
 //    bzero(kernel->machine->mainMemory, MemorySize);
 }
@@ -76,6 +78,8 @@ AddrSpace::AddrSpace()
 
 AddrSpace::~AddrSpace()
 {
+   for(int i = 0; i < numPages; i++)
+        AddrSpace::pageIsUsed[pageTable[i].physicalPage] = false;
    delete pageTable;
 }
 
@@ -113,6 +117,22 @@ AddrSpace::Load(char *fileName)
 						// to leave room for the stack
     numPages = divRoundUp(size, PageSize);
 //	cout << "number of pages of " << fileName<< " is "<<numPages<<endl;
+
+    pageTable = new TranslationEntry[numPages];
+    for (unsigned int i = 0; i < numPages; i++) {
+        int j;
+        for (j = 0; j < NumPhysPages -1 && AddrSpace::pageIsUsed[j] == true; j++);
+        AddrSpace::pageIsUsed[j] = true;
+        pageTable[i].virtualPage = i;	// for now, virt page # = phys page #
+        pageTable[i].physicalPage = j;
+    //	pageTable[i].physicalPage = 0;
+        pageTable[i].valid = TRUE;
+    //	pageTable[i].valid = FALSE;
+        pageTable[i].use = FALSE;
+        pageTable[i].dirty = FALSE;
+        pageTable[i].readOnly = FALSE;  
+    }
+
     size = numPages * PageSize;
 
     ASSERT(numPages <= NumPhysPages);		// check we're not trying
@@ -127,14 +147,14 @@ AddrSpace::Load(char *fileName)
         DEBUG(dbgAddr, "Initializing code segment.");
 	DEBUG(dbgAddr, noffH.code.virtualAddr << ", " << noffH.code.size);
         	executable->ReadAt(
-		&(kernel->machine->mainMemory[noffH.code.virtualAddr]), 
+		&(kernel->machine->mainMemory[pageTable[noffH.code.virtualAddr/PageSize].physicalPage * PageSize + (noffH.code.virtualAddr%PageSize)]), 
 			noffH.code.size, noffH.code.inFileAddr);
     }
 	if (noffH.initData.size > 0) {
         DEBUG(dbgAddr, "Initializing data segment.");
 	DEBUG(dbgAddr, noffH.initData.virtualAddr << ", " << noffH.initData.size);
         executable->ReadAt(
-		&(kernel->machine->mainMemory[noffH.initData.virtualAddr]),
+		&(kernel->machine->mainMemory[pageTable[noffH.initData.virtualAddr/PageSize].physicalPage * PageSize + (noffH.code.virtualAddr%PageSize)]),
 			noffH.initData.size, noffH.initData.inFileAddr);
     }
 

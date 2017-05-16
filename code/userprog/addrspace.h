@@ -42,6 +42,8 @@ class AddrSpace {
     void InitRegisters();		// Initialize user-level CPU registers,
 					// before jumping to user code
 
+    static bool pageIsUsed[NumPhysPages];
+
 };
 
 #endif // ADDRSPACE_H

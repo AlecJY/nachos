@@ -23,6 +23,7 @@
 Alarm::Alarm(bool doRandom)
 {
     timer = new Timer(doRandom, this);
+    threadList = new ThreadList();
 }
 
 //----------------------------------------------------------------------
@@ -49,15 +50,48 @@ Alarm::Alarm(bool doRandom)
 void 
 Alarm::CallBack() 
 {
+    threadList->ThreadCheck();
+    
     Interrupt *interrupt = kernel->interrupt;
     MachineStatus status = interrupt->getStatus();
+
+    // cout << threadList->threadList.empty() << endl;
+    // cout << threadList->hasReadyToRun << endl;
     
-    if (status == IdleMode) {	// is it time to quit?
+    if (status == IdleMode && threadList->threadList.empty() && !threadList->hasReadyToRun) {	// is it time to quit?
         if (!interrupt->AnyFutureInterrupts()) {
-	    timer->Disable();	// turn off the timer
+	    // cout << "!!!Disabled!!!\n";
+        timer->Disable();	// turn off the timer
 	}
     } else {			// there's someone to preempt
 	interrupt->YieldOnReturn();
     }
 }
 
+void Alarm::WaitUntil(int x) {
+    if (x > 0) {
+        ThreadList::ThreadInfo* info = new ThreadList::ThreadInfo();
+        info->thread = kernel->currentThread;
+        info->x = x+1;
+        threadList->threadList.push_back(info);
+        (void) kernel->interrupt->SetLevel(IntOff);
+        info->thread->Sleep(false);
+    }
+}
+
+void ThreadList::ThreadCheck() {
+    hasReadyToRun = false;
+    for (auto ci = threadList.begin(); ci != threadList.end();) {
+        (*ci)->x--;
+        if ((*ci)->x < 1) {
+            kernel->scheduler->ReadyToRun((*ci)->thread);
+            ThreadInfo* info = *ci;
+            ci = threadList.erase(ci);
+            delete info;
+            hasReadyToRun = true;
+        } else {
+            DEBUG(dbgThread, "Thread " << (*ci)->thread->getName() << " will be waked up after " << (*ci)->x << " times timer interrupts");
+            ci++;
+        }
+    }
+}

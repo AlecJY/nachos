@@ -79,6 +79,11 @@ ExceptionHandler(ExceptionType which)
 			cout << "return value:" << val << endl;
 			kernel->currentThread->Finish();
 			break;
+		case SC_Sleep:
+			DEBUG(dbgAddr, "Program sleep\n");
+			val=kernel->machine->ReadRegister(4);
+			kernel->alarm->WaitUntil(val);
+			return;
 		default:
 		    cerr << "Unexpected system call " << type << "\n";
  		    break;
